@@ -1,0 +1,50 @@
+body{
+
+width: 80%;
+font-size: 20px;
+margin-top: 10px;
+
+
+}
+
+table{
+
+width: 100%;
+border: 1px solid;
+}
+
+table th{
+
+background-color: gray;
+font-size: 25px;
+}
+
+table td{
+
+text-align: center;    
+}
+
+input[type=text]{
+
+width: 98%;
+}
+
+input[type=submit]{
+
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.confirmacao{
+
+    width: 400px;
+    margin: auto;
+    margin-top: 25%;
+    border: 2px solid gray;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    background-color: #cccccc;
+}
