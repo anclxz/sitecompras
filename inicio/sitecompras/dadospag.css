@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(207, 200, 200);
+
+}
+.pag{
+    border: rgb(32, 32, 32) 10px ridge;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px; 
+}
+.pagar{
+    padding-bottom: 20px;
+    background: black;
+    color: white;
+    border-style: outset;
+    border-color: black;
+    height: 10px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+}
+.rodape1{
+    background-color: white;
+    text-align: center;
+    padding-left: 10px;
+}
+.rodape2{
+    font: bold 15px arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    margin-top: 500px;
+}
