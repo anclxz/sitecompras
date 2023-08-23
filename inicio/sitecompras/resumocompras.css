@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(207, 200, 200);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.tabela1{
+    text-align: center;
+    border: rgb(32, 32, 32) 10px ridge;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: white;
+}
+.tabela2{
+ text-align: center;
+ padding-left: 500px;
+}
+.confirmar{
+    padding-bottom: 20px;
+    background: black;
+    color: white;
+    border-style: outset;
+    border-color: black;
+    height: 10px;
+    width: 100px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+    text-align: center;
+}
+.b{
+    font: bold 15px arial, sans-serif;
+    padding-left: 500px;
+    margin-bottom: 50px;
+}
+.xain{
+    text-align: center;
+    padding-left: 10px;
+}
+.rodape1{
+    font: bold 15px arial, sans-serif;
+    background-color: white;
+}
+.rodape2{
+    font: bold 15px arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    margin-top: 500px;
+}
