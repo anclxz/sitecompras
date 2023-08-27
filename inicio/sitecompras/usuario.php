@@ -42,7 +42,7 @@ $_SESSION['usuario'] = "";
         <h1>XAIN</h1>
         <p class="rodape1">Tudo | Feminino | Masculino | Infantil</p>
     </div>
-    <form action="usuario.php" method="post">
+    <form class="principal" action="usuario.php" method="post">
         <table>
             <tr>
                 <br>
@@ -66,7 +66,7 @@ $_SESSION['usuario'] = "";
 
             <tr>
                 <td colspan="2">
-                <input type="submit" name="login" value="login">
+                <input class="login" type="submit" name="login" value="login">
                 </td>
             </tr>
 
