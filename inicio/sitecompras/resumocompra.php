@@ -148,8 +148,8 @@ if(isset($_POST['confirmar'])){
 
         <table>
             <tr>
-                <td>Confirmar compra: </td>
-                <td><input type="submit" name="confirmar" value="confirmar"></td>
+                <td class="b">Confirmar compra: </td>
+                <td><input class="confirmar" type="submit" name="confirmar" value="confirmar"></td>
             </tr>
         </table>
             <div class="rodape2">
