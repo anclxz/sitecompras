@@ -29,6 +29,10 @@ if(isset($_POST['confirmar'])){
     <script src="main.js"></script>
 </head>
 <body>
+    <div class="xain">
+        <h1>XAIN</h1>
+        <p class="rodape1">Tudo | Feminino | Masculino | Infantil</p>
+    </div>
 <table>
     <tr>
         <br>
@@ -148,6 +152,13 @@ if(isset($_POST['confirmar'])){
                 <td><input type="submit" name="confirmar" value="confirmar"></td>
             </tr>
         </table>
-            
+            <div class="rodape2">
+    <p> Informações da empresa </br>
+       Sobre XAIN </br>
+       Ajuda e suporte</br>
+       Devolução</br>
+       nossas redes: @lojasxain_ </br>
+</p>
+</div> 
 </body>
 </html>
