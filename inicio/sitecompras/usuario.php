@@ -38,7 +38,10 @@ $_SESSION['usuario'] = "";
     <script src="main.js"></script>
 </head>
 <body>
-    
+    <div class="xain">
+        <h1>XAIN</h1>
+        <p class="rodape1">Tudo | Feminino | Masculino | Infantil</p>
+    </div>
     <form action="usuario.php" method="post">
         <table>
             <tr>
@@ -82,6 +85,14 @@ $_SESSION['usuario'] = "";
             <th>Quantidade</th>
             <th>Valor</th>
         </tr>
+      <div class="rodape2">
+    <p> Informações da empresa </br>
+       Sobre XAIN </br>
+       Ajuda e suporte</br>
+       Devolução</br>
+       nossas redes: @lojasxain_ </br>
+</p>
+</div>
         <?php
         
         $i = 0;
