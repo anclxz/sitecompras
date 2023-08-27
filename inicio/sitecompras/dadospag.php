@@ -39,7 +39,10 @@ if(isset($_POST['pagar'])){
     <script src="main.js"></script>
 </head>
 <body>
-    
+    <div class="xain">
+        <h1>XAIN</h1>
+        <p class="rodape1">Tudo | Feminino | Masculino | Infantil</p>
+    </div>
 <table>
     <tr>
         <br>
@@ -102,7 +105,7 @@ if(isset($_POST['pagar'])){
                 <td><input type="radio" name="metpag" value="pix"></td>
                 <td>PIX</td>
                 <td>Chave PIX</td>
-                <td>Site Girl's LTDA - 04.712.500/0001-07</td>
+                <td>Lojas XAIN - 04.712.500/0001-07</td>
 
             </tr>
 
@@ -113,9 +116,9 @@ if(isset($_POST['pagar'])){
             <th><?php echo $total; ?></th>
 
             </tr>
-            <tr>
+            <tr class="b">
 
-            <td colspan="4"><input type="submit" name="pagar" value="pagar"></td>
+            <td colspan="4"><input class="pagar" type="submit" name="pagar" value="pagar"></td>
 
             </tr>
 
@@ -123,6 +126,13 @@ if(isset($_POST['pagar'])){
 
 
     </form>
-
+ <div class="rodape2">
+    <p> Informações da empresa </br>
+       Sobre XAIN </br>
+       Ajuda e suporte</br>
+       Devolução</br>
+       nossas redes: @lojasxain_ </br>
+</p>
+</div>
 </body>
 </html>
