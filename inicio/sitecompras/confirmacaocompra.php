@@ -24,7 +24,7 @@ session_start();
     <div class="tudo">
         <div class="confirmacao">CONFIRMAÇÃO DA COMPRA!!!</div>
     <div class="dados">Seu pedido foi efetuado com sucesso!</br>
-    Para acompanhar seu pedido <a href="">clique aqui</a></div>
+    Para acompanhar seu pedido <a href="rastreio.html">clique aqui</a></div>
     </div>
     <div class="rodape2">
     <p> Informações da empresa </br>
