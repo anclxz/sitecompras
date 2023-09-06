@@ -33,38 +33,20 @@ if(isset($_POST['confirmar'])){
         <h1>XAIN</h1>
         <p class="rodape1">Tudo | Feminino | Masculino | Infantil</p>
     </div>
-<table>
-    <tr>
-        <br>
-        <th colspan="2">Dados do usuário</th>
-    </tr>
-    <tr>
-        <td>Usuário:</td>
-        <td><?php echo $usuario; ?></td>
-    </tr>
-    <tr>
-        <td>Nome completo:</td>
-        <td><?php echo $nome; ?></td>
-    </tr>
-    <tr>
-        <td>Endereço:</td>
-        <td><?php echo $endereco; ?></td>
-    </tr>
-        </table>
-
 <br>
 
-<table>
+<table class="principal">
         <tr>
             <th colspan="5">Itens da compra</th>
         </tr>
         <tr>
-            <th>#</th>
+            <th></th>
             <th>N° Item</th>
             <th>Descrição</th>
             <th>Quantidade</th>
             <th>Valor</th>
         </tr>
+
         <?php
         
         $i = 0;
@@ -95,22 +77,34 @@ if(isset($_POST['confirmar'])){
 
         </tr>
     </table>
-
+      
     <br>
 
-    <table>
+    <table class="principal">
 
             <tr>
                 <th colspan="4">Dados do pagamento</th>
             </tr>
             <tr>
-                <th>#</th>
+                <th></th>
                 <th>Método de pagamento</th>
                 <th colspan="2">Dados da cobrança</th>
             </tr>
             <tr>
-                <td>#</td>
+                <td></td>
                 <td>
+                    <div class="check">
+                    <input type="checkbox" id="credito" name="credito" value="1">
+                <label for="credito">Cartão de crédito</label>
+</br>
+                <input type="checkbox" id="debito" name="debito" value="2">
+                <label for="debito">Cartão de débito</label>
+ </br>
+                <input type="checkbox" id="pix" name="pix" value="3">
+                <label for="pix">pix</label>
+ </br>
+                    </div>
+               
                 <?php
                     if($metpag == "deb-avista"){
                         echo "Débito à vista";
@@ -147,7 +141,7 @@ if(isset($_POST['confirmar'])){
     <form action="resumocompra.php" method="post">
 
         <table>
-            <tr>
+            <tr> </br>
                 <td class="b">Confirmar compra: </td>
                 <td><input class="confirmar" type="submit" name="confirmar" value="confirmar"></td>
             </tr>
