@@ -18,8 +18,16 @@ body{
  text-align: center;
  padding-left: 500px;
 }
+.principal{
+    border: rgb(32, 32, 32) 10px ridge;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
 .confirmar{
     padding-bottom: 20px;
+    margin-top: 20%;
     background: black;
     color: white;
     border-style: outset;
@@ -34,6 +42,7 @@ body{
     font: bold 15px arial, sans-serif;
     padding-left: 500px;
     margin-bottom: 50px;
+    margin-top: 20%;
 }
 .xain{
     text-align: center;
@@ -48,4 +57,9 @@ body{
     background-color: white;
     text-align: center;
     margin-top: 500px;
+}
+.check{
+    padding-left: 10px;
+    text-align: center;
+    font: bold 15px arial, sans-serif;
 }
