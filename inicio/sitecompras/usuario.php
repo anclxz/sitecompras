@@ -34,7 +34,7 @@ $_SESSION['usuario'] = "";
     <meta http-equiv='X-UA Compatible' content='IE-edge'>
     <title>Document</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" type="text/css" media="screen" href="main-css.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="usuario.css">
     <script src="main.js"></script>
 </head>
 <body>
@@ -73,18 +73,7 @@ $_SESSION['usuario'] = "";
         </table>
 
     </form>
-
-    <table>
-        <tr>
-            <th colspan="5">Itens da compra</th>
-        </tr>
-        <tr>
-            <th>#</th>
-            <th>N° Item</th>
-            <th>Descrição</th>
-            <th>Quantidade</th>
-            <th>Valor</th>
-        </tr>
+ 
       <div class="rodape2">
     <p> Informações da empresa </br>
        Sobre XAIN </br>
