@@ -35,7 +35,7 @@ if(isset($_POST['pagar'])){
     <meta http-equiv='X-UA Compatible' content='IE-edge'>
     <title>Document</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" type="text/css" media="screen" href="main-css.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="dadospag.css">
     <script src="main.js"></script>
 </head>
 <body>
@@ -43,34 +43,11 @@ if(isset($_POST['pagar'])){
         <h1>XAIN</h1>
         <p class="rodape1">Tudo | Feminino | Masculino | Infantil</p>
     </div>
-<table>
-    <tr>
-        <br>
-        <th colspan="2">Dados do usuário</th>
-    </tr>
-
-    <tr>
-        <td>Usuário:</td>
-        <td><?php echo $usuario; ?></td>
-    </tr>
-
-    <tr>
-        <td>Nome completo:</td>
-        <td><?php echo $nome; ?></td>
-    </tr>
-
-    <tr>
-        <td>Endereço:</td>
-        <td><?php echo $endereco; ?></td>
-    </tr>
-
-        </table>
-
 <br>
 
     <form action="dadospag.php" method="post">
 
-        <table>
+        <table class="principal">
 
             <tr>
                 <th colspan="4">Dados do pagamento</th>
@@ -78,7 +55,7 @@ if(isset($_POST['pagar'])){
             </tr>
 
             <tr>
-                <th>#</th>
+                <th></th>
                 <th>Método de pagamento</th>
                 <th colspan="2">Dados da cobrança</th>
 
@@ -117,7 +94,6 @@ if(isset($_POST['pagar'])){
 
             </tr>
             <tr class="b">
-
             <td colspan="4"><input class="pagar" type="submit" name="pagar" value="pagar"></td>
 
             </tr>
